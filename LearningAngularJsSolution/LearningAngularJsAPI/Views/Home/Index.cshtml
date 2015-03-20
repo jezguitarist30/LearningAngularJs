@@ -16,14 +16,16 @@
 
     <div ui-view>
         
-        <p>{{test}}</p>
+       
 
     </div>
 
-
+    @Scripts.Render("~/bundles/scripts")
+    
+    @*@Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/angular")
-    @Scripts.Render("~/bundles/myApp")
+    @Scripts.Render("~/bundles/myApp")*@
     
 </body>
 
